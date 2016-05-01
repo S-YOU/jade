@@ -1,0 +1,36 @@
+{
+	"name": "slim-jade",
+	"version": "0.0.11",
+	"description": "jade",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/S-YOU/jade.git"
+	},
+	"author": {
+		"name": "S-YOU"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"gypfile": true,
+	"keywords": [
+		"binding",
+		"native",
+		"jade",
+		"performance"
+	],
+	"dependencies": {
+		"bindings": "*",
+		"nan": "*"
+	},
+	"devDependencies": {
+	},
+	"files": [
+		"README.md",
+		"index.js",
+		"binding.*",
+		"node.cc",
+		"src/*"
+	]
+}
